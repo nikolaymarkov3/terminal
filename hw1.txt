@@ -38,12 +38,13 @@ Linux terminal (GitBash) commands
 15)Найти файл по имени -- find . -name "d1.txt"
 
 16)просмотреть содержимое в реальном времени (команда grep) изучите как она работает.-- tail -F qq.txt | grep --line-buffered 123 | >&1 tee rt.txt
-																							             --tail -F qq.txt | grep --line-buffered 123 >> rt.txt
+												
+													--tail -F qq.txt | grep --line-buffered 123 >> rt.txt
 
-								--- tail -f rt.txt | grep --line-buffered 456 >> r1.txt | tail -f r1.txt
+											--- tail -f rt.txt | grep --line-buffered 456 >> r1.txt | tail -f r1.txt
 
 										
-									    “(---tail -F | grep 123 qq.txt >> rt.txt -- для мас)”
+									    			`“(---tail -F | grep 123 qq.txt >> rt.txt -- для мас)”
 
 
 17)вывести несколько первых строк из текстового файла -- head -3 mk_2/d3.txt
